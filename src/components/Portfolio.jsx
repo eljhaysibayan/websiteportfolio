@@ -48,7 +48,7 @@ const Portfolio = () => {
 
   const navItems = [
     { label: "Home", ref: headerRef },
-    { label: "Practicum", action: openPracticumModal },
+    { label: "Resume", action: openPracticumModal },
     { label: "Projects", ref: projectsRef },
     { label: "Technologies", ref: technologiesRef },
     { label: "Contact", ref: contactRef },

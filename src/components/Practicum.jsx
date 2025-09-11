@@ -13,9 +13,7 @@ const Practicum = ({ open, handleClose }) => {
     <Dialog open={open} onClose={handleClose}>
       <DialogTitle>Resume</DialogTitle>
       <DialogContent dividers>
-        <Typography gutterBottom>
-          Download the documents below:
-        </Typography>
+      
         <Button
           variant="contained"
           color="primary"
